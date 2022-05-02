@@ -1,0 +1,114 @@
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: .875rem;
+    min-width: 320px;
+}
+
+.container-fluid #main-content article .layout {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container,
+.container-md,
+.container-sm {
+    max-width: 720px;
+}
+
+.featured-container {
+    display: flex;
+    justify-content: space-between;
+}
+.featured-title-section h1{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+        color: var(--primary-color, #00205b);
+        font-size: 2.5rem;
+}
+.featured-news {
+    width: 437px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin: 0px 0px 48px;
+    margin: 10px;
+}
+
+.featured-news img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 260px;
+    width: 411px;
+}
+
+.card {
+    padding: 12px 25px 25px;
+    height: 370px;
+}
+
+
+.card span {
+    color: var(--primary-color-3, #002d80);
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+
+.sub-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tag {
+    color: #282e3a;
+    cursor: default;
+    height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    font-family: Roboto,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    border-radius: 0.75rem;
+    background-color: #e0e3e9;
+    padding: 0px 12px;
+
+}
+
+.tag div {
+    margin: auto;
+}
+
+.describe {
+    height: 170px;
+}
+
+.button {
+    padding: 0px 0px 25px 25px;
+    border-color: #063b9e;
+    border: 1px solid;
+    width: 75px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 16px;
+    margin-left: 25px;
+   margin-bottom: 20px;
+}
+
+
+.button a {
+    color: #063b9e;
+    text-decoration: none;
+    font-family: Roboto,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+
+}
