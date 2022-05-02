@@ -5,31 +5,25 @@ body {
     min-width: 320px;
 }
 
-.container-fluid #main-content article .layout {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.container,
-.container-md,
-.container-sm {
-    max-width: 720px;
-}
-
 .featured-container {
     display: flex;
     justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+    flex-wrap: wrap;
 }
-.featured-title-section h1{
+
+.featured-title-section h1 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
-        color: var(--primary-color, #00205b);
-        font-size: 2.5rem;
+    color: var(--primary-color, #00205b);
+    font-size: 2.5rem;
 }
+
 .featured-news {
-    width: 437px;
+    max-width: 437px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
         rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -40,8 +34,8 @@ body {
 .featured-news img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    height: 260px;
-    width: 411px;
+    height: 300px;
+    width: 437px;
 }
 
 .card {
@@ -96,9 +90,35 @@ body {
     cursor: pointer;
     padding: 7px 16px;
     margin-left: 25px;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+.button-solo {
+    padding: 0px 0px 25px 25px;
+    border-color: #063b9e;
+    border: 1px solid;
+    width: 75px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 16px;
+    margin: auto;
+    background-color: #063b9e;
+    margin-top: 30px;
+
+}
+
+.button-solo a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Roboto,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+
+}
 
 .button a {
     color: #063b9e;
