@@ -1,0 +1,100 @@
+
+
+.highlights{
+    background-image: url("/img/Grass.jpg");
+    height: 500px;
+    margin-left: 200px;
+    margin-right:200px;
+  
+}
+
+.aboutus{
+    background-image: url("/img/Environment_Airbus-Services_008\ \(1\).jpeg");
+    height: 500px;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-bottom: 20px;
+}
+
+.hr{
+    margin-left:200px;
+    margin-right: 200px;
+}
+
+.section1 h1 {
+    margin-left: 200px;
+    color: #002D80;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px, 0px, 8px;
+}
+
+.invest{
+    margin-left: 20px; ;
+    padding-top: 150px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:azure;
+}
+
+.how{
+    margin-left:20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:azure;
+    padding-bottom: 30px;
+}
+
+.button1{
+    margin-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 20px;
+    color :azure;
+    background-color: #002D80;
+    padding: 10px;;
+    border:none ;
+    
+}
+
+.div1{
+    background-image: url("/img/618434144.jpg");
+    height: 300px;
+    width: 520px;
+    margin-left:200px;
+   
+  
+
+}
+
+.div2{
+
+    background-image: url("/img/family-flight-stagex3-big.jpg");
+    height: 300px;
+    width: 520px;
+    margin-right:200px;
+   
+}
+
+.text1{
+    margin-left: 20px; ;
+    padding-top: 100px;
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:azure;
+}
+
+.text2{
+    margin-left: 20px; ;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:azure;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+
+
