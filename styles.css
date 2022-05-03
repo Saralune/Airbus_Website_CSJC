@@ -194,9 +194,6 @@ body {
     height: 300px;
     width: 520px;
     margin-left:200px;
-   
-  
-
 }
 
 .div2{
@@ -246,5 +243,175 @@ body {
     width: 520px;
     object-fit: fill;
     margin-right:200px;
+}
    
+/*GENERAL*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00205b;
+    align-items: center;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #00205b;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/*GENERIC*/
+.t-white{
+    color: white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/*HEADER TOP*/
+.header-top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-top__nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.header-top__nav-item{
+    margin: 0 0.5rem;
+    font-weight: 600;
+    font-size: 14px;
+    color : #063b9e;
+    display: inline-flex;
+}
+
+.header-top__angle-down{
+    width: 25px;
+}
+
+#header-top__stock-price{
+    display: flex;
+    flex-direction: row;
+}
+
+.stock-price{
+    padding: 0 0.5rem;
+    font-size: 14px;
+}
+
+#stock-price-label, #stock-price-current {
+    color: #255fcc;
+    font-weight: 700;
+}
+
+#stock-price-percentage{
+    color: #00205b;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/*HEADER*/
+#logo_airbus{
+    width: 86px;
+    height: 16px;
+}
+
+.header__logo{
+    padding: 18px 20px;
+}
+
+.header__navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: auto;
+}
+
+.header__class-item{
+    margin: 0 0.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.header__navbar-toggler{
+    display: none;
+}
+
+#header__search{
+    width: 25px;
+}
+
+/*FOOTER*/
+.footer__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin: 32px 0;
+}
+
+.footer__nav-list{
+    padding: 0 12px;
+    margin: 0;
+}
+
+.footer__nav-item{
+    font-size: 15px; /*0.875rem*/
+    padding: 0.5rem 0;
+}
+
+.footer__divider{
+    width: 95%;
+}
+
+.footer__bottom{
+    border-top: solid 1px white;
+    margin: 0 12px;
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.footer__bottom-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_bl-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__bl-item{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.footer__bottom-sn{
+    align-items: center;
+}
+
+.footer__sn{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
