@@ -191,6 +191,7 @@ body {
 
 .div1{
     background-image: url("/img/618434144.jpg");
+    background-size: 100% 100%;
     height: 300px;
     width: 520px;
     margin-left:200px;
@@ -199,6 +200,7 @@ body {
 .div2{
 
     background-image: url("/img/family-flight-stagex3-big.jpg");
+    background-size: 100% 100%;
     height: 300px;
     width: 520px;
     margin-right:200px;
@@ -230,9 +232,9 @@ body {
 
 .div3{
     background-image: url("/img/woman-employee.jpg");
+    background-size: 100% 100%;
     height: 300px;
     width: 520px;
-    object-fit: fill;
     margin-left:200px;
 }
 
@@ -241,8 +243,8 @@ body {
     background-image: url("/img/EM-airbus-careers-faces-belen.jpg");
     height: 300px;
     width: 520px;
-    object-fit: fill;
     margin-right:200px;
+    background-size: 100% 100%;
 }
    
 /*GENERAL*/
