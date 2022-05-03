@@ -143,19 +143,19 @@ body {
 }
 
 .highlights {
-    background-image: url("/img/Grass.jpg");
+    background-image: url("./img/Grass.jpg");
     height: 500px;
     margin-bottom: 30px;
 }
 
 .aboutus {
-    background-image: url("/img/Environment_Airbus-Services_008.jpeg");
+    background-image: url("./img/Environment_Airbus-Services_008.jpeg");
     height: 500px;
     margin-bottom: 20px;
 }
 
 .media-center {
-    background-image: url("/img/AirbusUTM_UrbanV2_Bright.jpg");
+    background-image: url("./img/AirbusUTM_UrbanV2_Bright.jpg");
     height: 500px;
     margin-bottom: 20px;
 }
@@ -205,7 +205,7 @@ body {
 }
 
 .div1 {
-    background-image: url("/img/618434144.jpg");
+    background-image: url("./img/618434144.jpg");
     background-size: 100% 100%;
     height: 300px;
     width: 540px;
@@ -214,7 +214,7 @@ body {
 
 .div2 {
 
-    background-image: url("/img/family-flight-stagex3-big.jpg");
+    background-image: url("./img/family-flight-stagex3-big.jpg");
     background-size: 100% 100%;
     height: 300px;
     width: 540px;
@@ -248,7 +248,7 @@ body {
 
 
 .div3 {
-    background-image: url("/img/woman-employee.jpg");
+    background-image: url("./img/woman-employee.jpg");
     background-size: 100% 100%;
     height: 300px;
     width: 540px;
@@ -257,7 +257,7 @@ body {
 
 .div4 {
 
-    background-image: url("/img/EM-airbus-careers-faces-belen.jpg");
+    background-image: url("./img/EM-airbus-careers-faces-belen.jpg");
     height: 300px;
     width: 540px;
     background-size: 100% 100%;
