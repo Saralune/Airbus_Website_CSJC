@@ -98,3 +98,25 @@
 }
 
 
+.div3{
+    background-image: url("/img/woman-employee.jpg");
+    height: 300px;
+    width: 520px;
+    object-fit: fill;
+    margin-left:200px;
+   
+  
+
+}
+
+.div4{
+
+    background-image: url("/img/EM-airbus-careers-faces-belen.jpg");
+    height: 300px;
+    width: 520px;
+    object-fit: fill;
+    margin-right:200px;
+   
+}
+
+
