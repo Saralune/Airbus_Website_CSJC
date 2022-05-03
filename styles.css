@@ -5,6 +5,15 @@ body {
     min-width: 320px;
 }
 
+#kpkVjs {
+    width: 100%;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1400px;
+}
+
 .featured-container {
     display: flex;
     justify-content: space-between;
@@ -133,120 +142,127 @@ body {
 
 }
 
-.highlights{
+.highlights {
     background-image: url("/img/Grass.jpg");
     height: 500px;
-    margin-left: 200px;
-    margin-right:200px;
-  
+    margin-bottom: 30px;
 }
 
-.aboutus{
+.aboutus {
     background-image: url("/img/Environment_Airbus-Services_008.jpeg");
     height: 500px;
-    margin-left: 200px;
-    margin-right:200px;
     margin-bottom: 20px;
 }
 
-.hr{
-    margin-left:200px;
-    margin-right: 200px;
+.media-center {
+    background-image: url("/img/AirbusUTM_UrbanV2_Bright.jpg");
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.ext {
+    width: 18px;
+    height: 18px;
+
+    color: #fff;
+
 }
 
 .section1 h1 {
-    margin-left: 200px;
     color: #002D80;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px, 0px, 8px;
 }
 
-.invest{
-    margin-left: 20px; ;
+.invest {
+    margin-left: 20px;
+    ;
     padding-top: 150px;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    color:azure;
+    color: azure;
 }
 
-.how{
-    margin-left:20px;
+.how {
+    margin-left: 20px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color:azure;
+    color: azure;
     padding-bottom: 30px;
 }
 
-.button1{
-    margin-left:20px;
+.button1 {
+    margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font: size 20px;
-    color :azure;
+    font-size: 12px;
+    color: azure;
     background-color: #002D80;
-    padding: 10px;;
-    border:none ;
-    
+    padding: 10px;
+    ;
+    border: none;
+
 }
 
-.div1{
+.div1 {
     background-image: url("/img/618434144.jpg");
     background-size: 100% 100%;
     height: 300px;
-    width: 520px;
-    margin-left:200px;
+    width: 540px;
+
 }
 
-.div2{
+.div2 {
 
     background-image: url("/img/family-flight-stagex3-big.jpg");
     background-size: 100% 100%;
     height: 300px;
-    width: 520px;
-    margin-right:200px;
-   
+    width: 540px;
+
+
 }
 
-.text1{
-    margin-left: 20px; ;
+.text1 {
+    margin-left: 20px;
+    ;
     padding-top: 100px;
     font-size: 31px;
     font-family: Arial, Helvetica, sans-serif;
-    color:azure;
+    color: azure;
 }
 
-.text2{
-    margin-left: 20px; ;
+.text2 {
+    margin-left: 20px;
+    ;
     padding-bottom: 10px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    color:azure;
+    color: azure;
 }
 
-.flex{
-    display:flex;
+.flex {
+    display: flex;
     justify-content: space-between;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 
-.div3{
+.div3 {
     background-image: url("/img/woman-employee.jpg");
     background-size: 100% 100%;
     height: 300px;
-    width: 520px;
-    margin-left:200px;
+    width: 540px;
+
 }
 
-.div4{
+.div4 {
 
     background-image: url("/img/EM-airbus-careers-faces-belen.jpg");
     height: 300px;
-    width: 520px;
-    margin-right:200px;
+    width: 540px;
     background-size: 100% 100%;
 }
-   
+
 /*GENERAL*/
 header {
     display: flex;
@@ -256,15 +272,15 @@ header {
     width: 100%;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-footer{
+footer {
     background-color: #00205b;
     position: absolute;
     left: 0;
@@ -273,71 +289,72 @@ footer{
 }
 
 /*GENERIC*/
-.t-white{
+.t-white {
     color: white;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
 /*HEADER TOP*/
-.header-top{
+.header-top {
     display: flex;
     justify-content: flex-end;
 }
 
-.header-top__nav-list{
+.header-top__nav-list {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 15px;
 }
 
-.header-top__nav-item{
+.header-top__nav-item {
     margin: 0 0.5rem;
     font-weight: 600;
     font-size: 14px;
-    color : #063b9e;
+    color: #063b9e;
     display: inline-flex;
 }
 
-.header-top__angle-down{
+.header-top__angle-down {
     width: 25px;
 }
 
-#header-top__stock-price{
+#header-top__stock-price {
     display: flex;
     flex-direction: row;
 }
 
-.stock-price{
+.stock-price {
     padding: 0 0.5rem;
     font-size: 14px;
 }
 
-#stock-price-label, #stock-price-current {
+#stock-price-label,
+#stock-price-current {
     color: #255fcc;
     font-weight: 700;
 }
 
-#stock-price-percentage{
+#stock-price-percentage {
     color: #00205b;
     font-weight: 700;
     font-size: 15px;
 }
 
 /*HEADER*/
-#logo_airbus{
+#logo_airbus {
     width: 86px;
     height: 16px;
 }
 
-.header__logo{
+.header__logo {
     padding: 18px 20px;
 }
 
-.header__navbar-nav{
+.header__navbar-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -345,22 +362,22 @@ footer{
     flex-basis: auto;
 }
 
-.header__class-item{
+.header__class-item {
     margin: 0 0.5rem;
     font-weight: bold;
     color: white;
 }
 
-.header__navbar-toggler{
+.header__navbar-toggler {
     display: none;
 }
 
-#header__search{
+#header__search {
     width: 25px;
 }
 
 /*FOOTER*/
-.footer__nav{
+.footer__nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -368,21 +385,22 @@ footer{
     margin: 32px 0;
 }
 
-.footer__nav-list{
+.footer__nav-list {
     padding: 0 12px;
     margin: 0;
 }
 
-.footer__nav-item{
-    font-size: 15px; /*0.875rem*/
+.footer__nav-item {
+    font-size: 15px;
+    /*0.875rem*/
     padding: 0.5rem 0;
 }
 
-.footer__divider{
+.footer__divider {
     width: 95%;
 }
 
-.footer__bottom{
+.footer__bottom {
     border-top: solid 1px white;
     margin: 0 12px;
     padding: 18px 16px;
@@ -391,35 +409,35 @@ footer{
     justify-content: center;
 }
 
-.footer__bottom-links{
+.footer__bottom-links {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.footer_bl-list{
+.footer_bl-list {
     display: flex;
     flex-direction: row;
 }
 
-.footer__bl-item{
+.footer__bl-item {
     display: inline-block;
     margin-right: 10px;
     color: white;
     font-weight: 600;
 }
 
-.footer__bottom-sn{
+.footer__bottom-sn {
     align-items: center;
 }
 
-.footer__sn{
+.footer__sn {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 0;
 }
 
-.footer__sn-links{
-    padding : 5px;
+.footer__sn-links {
+    padding: 5px;
 }

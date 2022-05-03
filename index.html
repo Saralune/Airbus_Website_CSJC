@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css"
+        integrity="sha512-Po8rrCwchD03Wo+2ibHFielZ8luDAVoCyE9i6iFMPyn9+V1tIhGk5wl8iKC9/JfDah5Oe9nV8QzE8HHgjgzp3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <title>Home | Airbus | pioneering sustainable aerospace</title>
@@ -17,19 +20,19 @@
 
         <nav>
             <ul class="header-top__nav-list">
-               <li class="header-top__nav-item">Carrers
-                   <img class="header-top__angle-down" src="./img/icons/angle_down.png" />
-               </li> 
-               <li class="header-top__nav-item">Investors
+                <li class="header-top__nav-item">Carrers
                     <img class="header-top__angle-down" src="./img/icons/angle_down.png" />
-               </li> 
-               <li class="header-top__nav-item">Suppliers
+                </li>
+                <li class="header-top__nav-item">Investors
                     <img class="header-top__angle-down" src="./img/icons/angle_down.png" />
-               </li> 
-               <li class="header-top__nav-item">Newsroom
+                </li>
+                <li class="header-top__nav-item">Suppliers
                     <img class="header-top__angle-down" src="./img/icons/angle_down.png" />
-               </li> 
-            </ul> 
+                </li>
+                <li class="header-top__nav-item">Newsroom
+                    <img class="header-top__angle-down" src="./img/icons/angle_down.png" />
+                </li>
+            </ul>
         </nav>
 
         <!--Stock Price-->
@@ -49,17 +52,18 @@
         <section class="header__logo">
             <a href="./index.html" rel="home">
                 <img id="logo_airbus" src="img/icons/logo_airbus.png" alt="logo Airbus">
-            </a>  
-        </section> 
+            </a>
+        </section>
 
         <!--bouton menu responsive-->
-        <button class="header__navbar-toggler"></button> 
+        <button class="header__navbar-toggler"></button>
 
         <!--Menu-->
         <nav id="header__main-navigation" class="header__navigation header__navbar-collapse ">
             <!-- <h2 class="hidden">Main navigation</h2> EUH !! à supprimer ?? -->
 
-            <ul class="header__navbar-nav"> <!--menu, caché en responsive-->
+            <ul class="header__navbar-nav">
+                <!--menu, caché en responsive-->
                 <li class="header__class-item">Who we are</li>
                 <li class="header__class-item">What we do</li>
                 <li class="header__class-item">Innovation</li>
@@ -73,191 +77,230 @@
         </nav>
 
     </header>
+    <div id="player" class="overlay">
+        <video id="kpkVjs" crossorigin="anonymous" class="" preload="none" playsinline="" autoplay="" loop="" muted=""
+            poster="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-whr.jpg">
+            <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-480.mp4"
+                type="video/mp4" media="all and (max-width: 480px)">
+            <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-720.mp4"
+                type="video/mp4" media="all and (max-width: 720px)">
+            <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-m3u8.m3u8"
+                type="application/x-mpegURL">
+        </video>
+        <!-- player par defaut non actif -->
+        <button class="video-control playing">
+            <span class="video-control-play">
+                <span class="video-control-symbol" aria-hidden="true">
+                    <svg height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h48v48H0z" fill="none"></path>
+                        <path
+                            d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"
+                            fill="white"></path>
+                    </svg>
+                </span>
+                <span class="video-control-label">Play</span>
+            </span>
+            <span class="video-control-pause">
+                <span class="video-control-symbol" aria-hidden="true">
+                    <svg height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h48v48H0z" fill="none"></path>
+                        <path
+                            d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-2 28h-4V16h4v16zm8 0h-4V16h4v16z"
+                            fill="white"></path>
+                    </svg>
+                </span>
+                <span class="video-control-label">Pause</span>
+            </span>
+        </button>
+    </div>
+    <!-- wrapper  -->
+    <div class="wrapper">
 
-    <!--Highlights-->
-    <div>
-        <section class="section1">
-            <h1>Highlights</h1>
-            <hr class=" hr">
-            <p>&nbsp;</p>
-        </section>
-        <div class="highlights">
-            <div>
-                <p class="invest">Invest in our planet</p>
-                <div class="how">How does Airbus invest our planet ?</div>
-                <button class="button1">Discover more</button>
+
+        <!--Highlights-->
+            <section class="section1">
+                <h1>Highlights</h1>
+                <hr class=" hr">
+                <p>&nbsp;</p>
+            </section>
+            <div class="highlights">
+                    <p class="invest">Invest in our planet</p>
+                    <div class="how">How does Airbus invest our planet ?</div>
+                    <button class="button1">Discover more</button>
             </div>
 
-        </div>
+     
 
-    </div>
-
-    <p></p>
-
-    <!--Featured news-->
-    <div class=" layout container">
-
-        <section class="featured-title-section">
-            <h1>Featured news</h1>
-            <hr>
-            <p>&nbsp;</p>
-        </section>
-        <div class="featured-container">
-            <section class="featured-news">
-                <div>
-                    <article>
-                        <div class="">
-                            <img src="/img/DSC_5493.jpg" alt="A380 first flight - flight test crew"
-                                title="A380 first flight - flight test crew">
-                        </div>
-                    </article>
-                </div>
-                <div class="card">
-                    <div class="sub-card">
-                        <div class="tag">
-                            <div> Company </div>
-                        </div>
-                        <div class="date"> <time datetime="2022-04-27T14:06:43Z">27 April 2022</time> </div>
-                    </div>
-                    <h5 class=""> <span>The making of a hero</span> </h5>
-                    <div class="describe">
-                        <div>
-                            An auction of A380 parts will be held in October 2022 in Toulouse and online. It will
-                            bring much emotion to enthusiasts as well as giving them the opportunity to acquire
-                            emblematic elements of the jumbo sized Airbus aircraft.
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="button">
-                    <a class="" href="#">Read more</a>
-                </div>
+        <!--Featured news-->
+        <div class=" layout container">
+            <section class="featured-title-section">
+                <h1>Featured news</h1>
+                <hr>
+                <p>&nbsp;</p>
             </section>
-            <section class="featured-news">
-                <div>
-                    <article>
-                        <div class="">
-                            <img src="/img/IMG-20220215-WA0026.jpg" alt="Paul Meacham" title="Paul Meacham">
-                        </div>
-                    </article>
-                </div>
-                <div class="card">
-                    <div class="sub-card">
-                        <div class="tag">
-                            <div> Space </div>
-                        </div>
-                        <div class="date"> <time datetime="2022-03-31T11:06:54Z">31 March 2022</time> </div>
+            <div class="featured-container">
+                <section class="featured-news">
+                    <div>
+                        <article>
+                            <div class="">
+                                <img src="/img/DSC_5493.jpg" alt="A380 first flight - flight test crew"
+                                    title="A380 first flight - flight test crew">
+                            </div>
+                        </article>
                     </div>
-                    <h5 class=""> <span>#NextSpace: Mission to Mars</span> </h5>
-                    <div class="describe">
-                        <div>
-                            Very few people get to work on things that leave our planet. Paul Meacham is one of
-                            them:
-                            The European rover he and his Airbus colleagues built will drive on Mars, searching for
-                            signs of life.
+                    <div class="card">
+                        <div class="sub-card">
+                            <div class="tag">
+                                <div> Company </div>
+                            </div>
+                            <div class="date"> <time datetime="2022-04-27T14:06:43Z">27 April 2022</time> </div>
                         </div>
+                        <h5 class=""> <span>The making of a hero</span> </h5>
+                        <div class="describe">
+                            <div>
+                                An auction of A380 parts will be held in October 2022 in Toulouse and online. It will
+                                bring much emotion to enthusiasts as well as giving them the opportunity to acquire
+                                emblematic elements of the jumbo sized Airbus aircraft.
+                            </div>
 
-                    </div>
-
-                </div>
-                <div class="button">
-                    <a class="" href="#">Read more</a>
-                </div>
-            </section>
-            </section>
-            <section class="featured-news">
-                <div>
-                    <article>
-                        <div class="">
-                            <img src="/img/A380 MSN001 SAF fligth02.jpg" alt="Paul Meacham" title="Paul Meacham">
-                        </div>
-                    </article>
-                </div>
-                <div class="card">
-                    <div class="sub-card">
-                        <div class="tag">
-                            <div> Commercial Aircraft </div>
-                        </div>
-                        <div class="date"> <time datetime="2022-03-28T07:34:23Z">28 March 2022</time> </div>
-                    </div>
-                    <h5 class=""> <span>This A380 is the latest to test 100% SAF</span> </h5>
-                    <div class="describe">
-                        <div>
-                            The first flight of an A380 operating one engine on 100% sustainable aviation fuel
-                            follows successful flight test campaigns involving an A350 and an A319neo last year.
-                            This latest milestone once again demonstrates Airbus’ commitment to achieving
-                            certification of unblended SAF for commercial use by 2030
                         </div>
 
                     </div>
+                    <div class="button">
+                        <a class="" href="#">Read more</a>
+                    </div>
+                </section>
+                <section class="featured-news">
+                    <div>
+                        <article>
+                            <div class="">
+                                <img src="/img/IMG-20220215-WA0026.jpg" alt="Paul Meacham" title="Paul Meacham">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card">
+                        <div class="sub-card">
+                            <div class="tag">
+                                <div> Space </div>
+                            </div>
+                            <div class="date"> <time datetime="2022-03-31T11:06:54Z">31 March 2022</time> </div>
+                        </div>
+                        <h5 class=""> <span>#NextSpace: Mission to Mars</span> </h5>
+                        <div class="describe">
+                            <div>
+                                Very few people get to work on things that leave our planet. Paul Meacham is one of
+                                them:
+                                The European rover he and his Airbus colleagues built will drive on Mars, searching for
+                                signs of life.
+                            </div>
 
-                </div>
-                <div class="button">
-                    <a class="" href="#">Read more</a>
-                </div>
-            </section>
-        </div>
-        <div class="button-solo"> <a class="" href="#">Read more</a></div>
-    </div>
+                        </div>
 
-    <div>
-        <section class="section1">
-            <h1>About us</h1>
-            <hr class=" hr">
-            <p>&nbsp;</p>
-        </section>
-        <div class="aboutus">
-            <div>
-                <p class="invest">What we do</p>
-                <div class="how">We pioneer sustainable aerospace for a safe and united world</div>
-                <button class="button1">Discover more</button>
+                    </div>
+                    <div class="button">
+                        <a class="" href="#">Read more</a>
+                    </div>
+                </section>
+                </section>
+                <section class="featured-news">
+                    <div>
+                        <article>
+                            <div class="">
+                                <img src="/img/A380 MSN001 SAF fligth02.jpg" alt="Paul Meacham" title="Paul Meacham">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="card">
+                        <div class="sub-card">
+                            <div class="tag">
+                                <div> Commercial Aircraft </div>
+                            </div>
+                            <div class="date"> <time datetime="2022-03-28T07:34:23Z">28 March 2022</time> </div>
+                        </div>
+                        <h5 class=""> <span>This A380 is the latest to test 100% SAF</span> </h5>
+                        <div class="describe">
+                            <div>
+                                The first flight of an A380 operating one engine on 100% sustainable aviation fuel
+                                follows successful flight test campaigns involving an A350 and an A319neo last year.
+                                This latest milestone once again demonstrates Airbus’ commitment to achieving
+                                certification of unblended SAF for commercial use by 2030
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="button">
+                        <a class="" href="#">Read more</a>
+                    </div>
+                </section>
             </div>
+            <div class="button-solo"> <a class="" href="#">Read more</a></div>
         </div>
+
+        <div>
+            <section class="section1">
+                <h1>About us</h1>
+                <hr class=" hr">
+                <p>&nbsp;</p>
+            </section>
+            <div class="aboutus">
+                <div>
+                    <p class="invest">What we do</p>
+                    <div class="how">We pioneer sustainable aerospace for a safe and united world</div>
+                    <button class="button1">Discover more</button>
+                </div>
+            </div>
 
             <div class="flex">
-            <div class="div1">
-                <p class="text1">Our worldwide presence</p>
-                <div class="text2">At home around the world</div>
-                <button class="button1">Discover more</button> </div>
+                <div class="div1">
+                    <p class="text1">Our worldwide presence</p>
+                    <div class="text2">At home around the world</div>
+                    <button class="button1">Discover more</button>
+                </div>
 
-            
-
-             <div class="div2">
-                <p class="text1">Our products and services</p>
-                <div class="text2">Discover our portfolio</div>
-                <button class="button1">Discover more</button> </div>
-
-             </div>
-             </div>
+                <div class="div2">
+                    <p class="text1">Our products and services</p>
+                    <div class="text2">Discover our portfolio</div>
+                    <button class="button1">Discover more</button>
+                </div>
 
             </div>
+        </div>
 
+        <div>
+            <section class="section1">
+                <h1>Join the Airbus team</h1>
+                <hr class=" hr">
+                <p>&nbsp;</p>
+            </section>
+
+            <div class="flex">
+                <div class="div3">
+                    <p class="text1">Kickstart your career</p>
+                    <div class="text2">Visit the Airbus job market</div>
+                    <button class="button1">Join us</button>
+                </div>
+
+                <div class="div4">
+                    <p class="text1">Meet Belen</p>
+                    <div class="text2">VP Technology & Development Director at Airbus Defence and Space, Madrid</div>
+                    <button class="button1">Read more</button>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <div class="media-center">
+                <div>
+                    <p class="invest">Media centre</p>
+                    <div class="how"> Browse our photos, videos and downloadable assets</div>
+                    <button class="button1">Discover more</button>
+                </div>
+            </div>
+
+        </div>
     </div>
-
-    <div>
-        <section class="section1">
-            <h1>Join the Airbus team</h1>
-            <hr class=" hr">
-            <p>&nbsp;</p>
-        </section>
-
-        <div class="flex">
-            <div class="div3">
-                <p class="text1">Kickstart your career</p>
-                <div class="text2">Visit the Airbus job market</div>
-                <button class="button1">Join us</button> </div>
-
-            
-
-             <div class="div4">
-                <p class="text1">Meet Belen</p>
-                <div class="text2">VP Technology & Development Director at Airbus Defence and Space, Madrid</div>
-                <button class="button1">Read more</button> </div>
-
-             </div>
-
-             <!--Footer-->
+    <!--Footer-->
     <footer>
         <div class="footer__top">
             <!--Lien (js ?) qui ramène au haut de l'écran-->
@@ -265,73 +308,73 @@
 
         <div class="footer_main">
             <nav class="footer__nav">
-                    <!--Bloc nav 1-->
-                    <ul class="footer__nav-list">
-                        <h2 class="footer__nav-title">Useful links</h2>
+                <!--Bloc nav 1-->
+                <ul class="footer__nav-list">
+                    <h2 class="footer__nav-title">Useful links</h2>
 
-                        <li class="footer__nav-item">About us</li>
-                        <li class="footer__nav-item">Careers</li>
-                        <li class="footer__nav-item">Investors</li>
-                        <li class="footer__nav-item">Suppliers</li>
-                        <li class="footer__nav-item">Newsroom</li>
-                        <li class="footer__nav-item">Media Center</li>
-                        <li class="footer__nav-item">Modern Slavery Statement</li>
-                    </ul>
-                    
-                    <!--Bloc nav 2-->
-                    <ul class="footer__nav-list">
-                        <h2 class="footer__nav-title">Topics in focus</h2>
+                    <li class="footer__nav-item">About us</li>
+                    <li class="footer__nav-item">Careers</li>
+                    <li class="footer__nav-item">Investors</li>
+                    <li class="footer__nav-item">Suppliers</li>
+                    <li class="footer__nav-item">Newsroom</li>
+                    <li class="footer__nav-item">Media Center</li>
+                    <li class="footer__nav-item">Modern Slavery Statement</li>
+                </ul>
 
-                        <li class="footer__nav-item">Innovation</li>
-                        <li class="footer__nav-item">Sustainability</li>
-                        <li class="footer__nav-item">Safety</li>
-                        <li class="footer__nav-item">Orders & Deliveries</li>
-                        <li class="footer__nav-item">Airbus Foundation</li>
-                        <li class="footer__nav-item">Health Onboard</li>
-                    </ul>
-                    
-                    <!--Bloc nav 3-->
-                    <ul class="footer__nav-list">
-                        <h2 class="footer__nav-title">Products and services</h2>
+                <!--Bloc nav 2-->
+                <ul class="footer__nav-list">
+                    <h2 class="footer__nav-title">Topics in focus</h2>
 
-                        <li class="footer__nav-item">Commercial Aircraft</li>
-                        <li class="footer__nav-item">Helicopters</li>
-                        <li class="footer__nav-item">Defence</li>
-                        <li class="footer__nav-item">Space</li>
-                        <li class="footer__nav-item">Security</li>
-                        <li class="footer__nav-item">Airbus Corporate Jets</li>
-                        <li class="footer__nav-item">Airbus Corporate Helicopters</li>
-                    </ul>
-                    
-                    <!--Bloc nav 4-->
-                    <ul class="footer__nav-list">
-                        <h2 class="footer__nav-title">Specific websites</h2>
+                    <li class="footer__nav-item">Innovation</li>
+                    <li class="footer__nav-item">Sustainability</li>
+                    <li class="footer__nav-item">Safety</li>
+                    <li class="footer__nav-item">Orders & Deliveries</li>
+                    <li class="footer__nav-item">Airbus Foundation</li>
+                    <li class="footer__nav-item">Health Onboard</li>
+                </ul>
 
-                        <li class="footer__nav-item">Aircraft services</li>
-                        <li class="footer__nav-item">Cybersecurity</li>
-                        <li class="footer__nav-item">Intelligence</li>
-                        <li class="footer__nav-item">Secure Communications</li>
-                        <li class="footer__nav-item">Secure Land Communications</li>
-                    </ul>
-                    
-                    <!--Bloc nav 5-->
-                    <ul class="footer__nav-list">
-                        <h2 class="footer__nav-title">Airbus around the world</h2>
+                <!--Bloc nav 3-->
+                <ul class="footer__nav-list">
+                    <h2 class="footer__nav-title">Products and services</h2>
 
-                        <li class="footer__nav-item">Worldwide Presence</li>
-                        <li class="footer__nav-item">Airbus in the US</li>
-                        <li class="footer__nav-item">Helicopter regional websites</li>
-                    </ul>
-                    
-                    <!--Bloc nav 6-->
-                    <ul class="footer__nav-list">
-                        <h2 class="footer__nav-title">Other websites</h2>
+                    <li class="footer__nav-item">Commercial Aircraft</li>
+                    <li class="footer__nav-item">Helicopters</li>
+                    <li class="footer__nav-item">Defence</li>
+                    <li class="footer__nav-item">Space</li>
+                    <li class="footer__nav-item">Security</li>
+                    <li class="footer__nav-item">Airbus Corporate Jets</li>
+                    <li class="footer__nav-item">Airbus Corporate Helicopters</li>
+                </ul>
 
-                        <li class="footer__nav-item">AirbusWorld</li>
-                        <li class="footer__nav-item">AirbusWorld for Helicopters</li>
-                        <li class="footer__nav-item">Brand center</li>
-                        <li class="footer__nav-item">Let's shopAirbus</li>
-                    </ul>
+                <!--Bloc nav 4-->
+                <ul class="footer__nav-list">
+                    <h2 class="footer__nav-title">Specific websites</h2>
+
+                    <li class="footer__nav-item">Aircraft services</li>
+                    <li class="footer__nav-item">Cybersecurity</li>
+                    <li class="footer__nav-item">Intelligence</li>
+                    <li class="footer__nav-item">Secure Communications</li>
+                    <li class="footer__nav-item">Secure Land Communications</li>
+                </ul>
+
+                <!--Bloc nav 5-->
+                <ul class="footer__nav-list">
+                    <h2 class="footer__nav-title">Airbus around the world</h2>
+
+                    <li class="footer__nav-item">Worldwide Presence</li>
+                    <li class="footer__nav-item">Airbus in the US</li>
+                    <li class="footer__nav-item">Helicopter regional websites</li>
+                </ul>
+
+                <!--Bloc nav 6-->
+                <ul class="footer__nav-list">
+                    <h2 class="footer__nav-title">Other websites</h2>
+
+                    <li class="footer__nav-item">AirbusWorld</li>
+                    <li class="footer__nav-item">AirbusWorld for Helicopters</li>
+                    <li class="footer__nav-item">Brand center</li>
+                    <li class="footer__nav-item">Let's shopAirbus</li>
+                </ul>
             </nav>
         </div>
 
@@ -363,10 +406,10 @@
                 <section class="header__logo">
                     <a href="./index.html" rel="home">
                         <img id="logo_airbus" src="img/icons/logo_airbus.png" alt="logo Airbus">
-                    </a>  
-                </section> 
+                    </a>
+                </section>
 
-                <nav >
+                <nav>
                     <ul class="footer_bl-list">
                         <li class="footer__bl-item">Terms of use</li>
                         <li class="footer__bl-item">Statement on Accessibility</li>
