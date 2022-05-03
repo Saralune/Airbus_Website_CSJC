@@ -12,9 +12,47 @@
 </head>
 
 <body>
-<p class="vidcontainer"><iframe class="kpkplayer"
-        src="//ccntservice.airbus.com/apps/videos/home103.html?overlay=1&amp;opacity=20"
-        title="Vidéo : Pionnier de l'aérospatiale durable pour un monde sûr et solidaire" width="100%"></iframe></p>
+
+    <div id="player" class="overlay">
+        <video id="kpkVjs" crossorigin="anonymous" class="" preload="none" playsinline="" autoplay="" loop="" muted=""
+            poster="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-whr.jpg">
+            <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-480.mp4"
+                type="video/mp4" media="all and (max-width: 480px)">
+            <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-720.mp4"
+                type="video/mp4" media="all and (max-width: 720px)">
+            <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-m3u8.m3u8"
+                type="application/x-mpegURL">
+        </video>
+        <!-- player par defaut non actif -->
+        <button class="video-control playing">
+            <span class="video-control-play">
+                <span class="video-control-symbol" aria-hidden="true">
+                    <svg height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h48v48H0z" fill="none"></path>
+                        <path
+                            d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"
+                            fill="white"></path>
+                    </svg>
+                </span>
+                <span class="video-control-label">Play</span>
+            </span>
+            <span class="video-control-pause">
+                <span class="video-control-symbol" aria-hidden="true">
+                    <svg height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h48v48H0z" fill="none"></path>
+                        <path
+                            d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-2 28h-4V16h4v16zm8 0h-4V16h4v16z"
+                            fill="white"></path>
+                    </svg>
+                </span>
+                <span class="video-control-label">Pause</span>
+            </span>
+        </button>
+    </div>
+    </div>
+
+
+
     <div class=" layout container">
 
         <section class="featured-title-section">
