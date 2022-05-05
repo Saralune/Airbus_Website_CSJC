@@ -11,7 +11,83 @@ body {
 
 .wrapper {
     margin: auto;
-    max-width: 1400px;
+    max-width: 1300px;
+}
+
+.purpose {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.purpose h5 {
+    color: var(--primary-color-3, #002d80);
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+
+.purpose-subtitle {
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-bottom: 1.5rem;
+    color: #647592;
+    font-weight: 500;
+}
+
+.purpose-discover {
+    padding: 0px 0px 25px 25px;
+    border-color: #063b9e;
+    border: 1px solid;
+    width: 375px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.purpose-discover a {
+    color: #063b9e;
+    text-decoration: none;
+    font-family: Roboto,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.button-purpose {
+    padding: 0px 0px 25px 25px;
+    border-color: #063b9e;
+    border: 1px solid;
+    width: 75px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 16px;
+    background-color: #063b9e;
+    margin-top: 30px;
+}
+
+.button-purpose a {
+    color: #fff;
+    
+}
+
+.purpose img {
+    max-height: 567px;
+    
+   
+}
+
+.purpose-container {
+    max-height: 481px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 12px 25px 25px;
+    float: left;
 }
 
 .featured-container {
